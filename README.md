@@ -3,10 +3,7 @@
 A Fullstack GraphQL Airbnb Clone with React and React Native.
 
 - Branches are in the order they were coded.
-- Watch how this was made: https://www.youtube.com/playlist?list=PLN3n1USn4xlnfJIQBa6bBjjiECnk6zL6s
-- This builds off the GraphQL Typescript Server I made: https://github.com/benawad/graphql-ts-server-boilerplate.
-- You can see the YouTube Playlist for how that was made here: https://www.youtube.com/playlist?list=PLN3n1USn4xlky9uj6wOhfsPez7KZOqm2V
-- Join the Discord: https://discord.gg/Vehs99V
+- This builds off the GraphQL Typescript Server I made: https://github.com/climax0916/graphql-ts-server-boilerplate.
 
 ## Packages
 
@@ -23,7 +20,7 @@ This project is made up of 5 packages that share code using Yarn Workspaces.
 1. Clone project
 
 ```
-git clone https://github.com/benawad/fullstack-graphql-airbnb-clone.git
+git clone https://github.com/climax0916/fullstack-graphql-airbnb-clone.git
 ```
 
 2. cd into folder
@@ -51,7 +48,7 @@ createdb graphql-ts-server-boilerplate
 
 ```
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
-``` 
+```
 
 8. Install and start Redis
 
@@ -61,30 +58,13 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 11. Run `yarn build` in `packages/controller`
 
-12. Get Google Maps API key and put it here https://github.com/benawad/fullstack-graphql-airbnb-clone/blob/master/packages/web/public/index.html#L14 Videos doing that: https://youtu.be/-QQnzDVcTCo and https://youtu.be/xLlIgokKiLc
-
-
+12. Get Google Maps API key and put it here https://github.com/climax0916/fullstack-graphql-airbnb-clone/blob/master/packages/web/public/index.html#L1
 
 ## Usage
 
 1. Start server `yarn start` in `packages/server`
 
 2. Now you can run `yarn start` in `packages/web` or `packages/app` to start the website or app.
-
-3. How to get credentials working in graphql playground: https://youtu.be/oM-EmNdhwI4?t=8m39s
-
-## Deploy
-
-### Server
-
-1. https://www.youtube.com/watch?v=qQAozc1MkdU
-2. https://www.youtube.com/watch?v=0t-rE5wUP-E
-
-### Website
-
-1. https://www.youtube.com/watch?v=FiU3SHEaFwk
-2. https://www.youtube.com/watch?v=vPu1sfuYFzw
-3. https://www.youtube.com/watch?v=Ry6Zobb-kaw
 
 ## Features
 
